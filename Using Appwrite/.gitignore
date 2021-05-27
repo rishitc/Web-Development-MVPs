@@ -1,0 +1,5 @@
+secret_key.py
+appwrite_usr_pwd
+appwrite/
+.mypy_cache/
+env/
