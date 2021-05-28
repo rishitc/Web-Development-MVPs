@@ -1,0 +1,42 @@
+a {
+    color: #333;
+    text-decoration: none;
+}
+a.skip-to-content-link {
+  background-color: #e77e23;
+  height: 30px;
+  left: 50%;
+  padding: 8px;
+  font-weight: 700;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+}
+
+a.skip-to-content-link:focus {
+  transform: translateY(0%);
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div#noise {
+  height: 50px;
+  background: #e84c3d;
+}
+
+div.panel {
+    margin: 8px;
+    padding: 10px;
+    border: 5px solid #333;
+    border-radius: 5px;
+}
+
+img {
+    width: 100%;
+}
