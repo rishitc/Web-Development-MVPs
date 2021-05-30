@@ -1,0 +1,49 @@
+div {
+  color: #333;
+}
+div.skip-link {
+  text-decoration: none;
+  background-color: #e77e23;
+  height: 35px;
+  left: 50%;
+  padding: 8px;
+  font-weight: 700;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+  border-radius: 5px;
+}
+
+div.skip-link a {
+  text-decoration: none;
+  color: white;
+}
+
+div.skip-link:focus-within {
+  transform: translateY(0%);
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div#noise {
+  height: 50px;
+  background: #e84c3d;
+  width: 100%;
+}
+
+div.panel {
+  margin: 8px;
+  padding: 10px;
+  border: 5px solid #333;
+  border-radius: 5px;
+}
+
+img {
+  width: 100%;
+}
