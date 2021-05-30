@@ -5,3 +5,4 @@ appwrite/
 .env/
 **/*.pyc
 **/__init__.py
+project_data.py
